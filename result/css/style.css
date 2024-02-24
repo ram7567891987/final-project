@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.headerIMG {
+    position: absolute;
+    width: 1365px;
+    height: 924.55px;
+    right: -15px;
+    left: -8px;
+    top: 0;
+}
+
+
+.logo {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    left: 165px;
+    right: 829px;
+    top: 85.37px;
+
+    color: rgb(255, 255, 255);
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+
+.textLink1 {
+/* Features */
+        position: absolute;
+        width: 70px;
+        height: 25.11px;
+        left: 499px;
+        right: -122px;
+        top: 89.39px;
+        bottom: -89.39px;
+        text-decoration: none;
+
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.textLink2 {
+/* Products */
+    position: absolute;
+    width: 72px;
+    height: 25.11px;
+    left: 619px;
+    right: -244px;
+    top: 89.39px;
+    bottom: -89.39px;
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.textLink3 {
+/* Testimonial */
+            position: absolute;
+            width: 92px;
+            height: 25.11px;
+            left: 741px;
+            right: -386px;
+            top: 89.39px;
+            bottom: -89.39px;
+            text-decoration: none;
+
+            color: rgb(255, 255, 255);
+            font-family: Nunito;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0%;
+            text-align: left;
+}
+
+.textLink4 {
+/* Contact */
+        position: absolute;
+        width: 63px;
+        height: 25.11px;
+        left: 883px;
+        right: -499px;
+        top: 89.39px;
+        bottom: -89.39px;
+        text-decoration: none;
+
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-right: 10px; /* Добавляем отступ справа от "Contact" */
+}
+
+
+.button-demo {
+/* Try a demo */
+    position: relative;
+    width: 154px;
+    height: 49px;
+    left: 1150px;
+    top: 32px;
+/* Автолейаут */
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    padding: 12px 22px  32px;
+
+    border-radius: 40px;
+    background: rgb(184, 92, 56);
+}
+
+
+/* Contents */
+
+
+.iconBg {
+/* bg */
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 673px;
+    right: -673px;
+    top: 279px;
+    bottom: -279px;
+}
+
+.iconPlay {
+/* Vector (Stroke) */
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: 702px;
+    right: 12.5%;
+    top: 310px;
+    bottom: 8.33%;
+}
+
+.infoContent {
+/* Best place to buy rocket */
+    position: absolute;
+    width: 750px;
+    height: 98px;
+    left: 340px;
+    right: -321px;
+    top: 399px;
+    bottom: -358px;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    text-shadow:
+    1px 1px 1px black,
+    0 0 1em rgba(0, 0, 0, 0.24),
+    0 0 0.2em rgba(0, 0, 0, 0.527);
+  color: white;
+}
+
+.infoContent-2 {
+    /* Quis ipsum pellentesque nulla nulla elementum sagittis dictum */
+    position: absolute;
+    width: 666px;
+    height: 34px;
+    left: 387px;
+    right: -255px;
+    top: 495px;
+    bottom: -399px;
+
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* Two Button */
+
+.twoButton { 
+/* Buttons */
+    position: absolute;
+    width: 337px;
+    height: 63px;
+    left: 542px;
+    right: -81px;
+    top: 578px;
+    bottom: -279px;
+}
+
+.button-demo1 {
+    /* Try a demo */
+    position: relative;
+    width: 167px;
+    height: 63px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 32px 18px 32px;
+
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    background: rgb(184, 92, 56);
+
+    .btn-custom:hover {
+        background-color: white; /* изменение цвета фона на белый при наведении */
+        color: #ffffff; /* изменение цвета текста для контраста */
+        border: 12x solid #ccc; /* добавляем тонкую обводку для видимости кнопки */
+    }
+
+}
+
+
+.button-demo2 {
+/* Buy now */
+    position: relative;
+    width: 146px;
+    height: 63px;
+    left: 200px;
+    bottom: 63px;
+/* Автолейаут */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 32px 18px 32px;
+    color: white;
+
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+}
