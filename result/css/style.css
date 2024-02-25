@@ -230,13 +230,8 @@ body {
     color: rgb(255, 255, 255);
     background: rgb(184, 92, 56);
 
-    .btn-custom:hover {
-        background-color: white; /* изменение цвета фона на белый при наведении */
-        color: #ffffff; /* изменение цвета текста для контраста */
-        border: 12x solid #ccc; /* добавляем тонкую обводку для видимости кнопки */
-    }
-
 }
+
 
 
 .button-demo2 {
@@ -258,3 +253,314 @@ body {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 40px;
 }
+
+
+.avoid-text-1 {
+    /* Features you can’s avoid */
+    position: absolute;
+    width: 720px;
+    height: 87px;
+    left: 360px;
+    right: -160px;
+    top: 1041px;
+    bottom: -951px;
+
+    color: rgb(45, 36, 36);
+    font-size: 64px;
+    font-weight: 680;
+    line-height: 87px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.avoid-text-2 {
+    /* Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl */
+    position: absolute;
+    width: 920px;
+    height: 66px;
+    left: 260px;
+    right: -260px;
+    top: 1152px;
+    bottom: -1041px;
+
+    color: rgb(189, 189, 189);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* Avoid Icon */
+
+.row-1 {
+/* Row 1 */
+    position: absolute;
+    width: 0px;
+    height: 180px;
+    left: 143px;
+    right: 164px;
+    top: 1350px;
+    bottom: -508px;
+}
+
+/* Icon 1 */
+.icon-1 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 200px;
+    right: 1000px;
+    top: 0%;
+    bottom: 0%;
+}
+.icon-text {
+    /* Solid Fuel */
+    position: absolute;
+    width: 109px;
+    height: 33px;
+    right: -272px;
+    top: 60px;
+    bottom: 41.67%;
+
+    color: rgb(184, 92, 56);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.text-row-1 {
+    /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
+    position: absolute;
+    width: 267px;
+    left: 84px;
+    bottom: 19px;
+
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 10%;
+    text-align: center;
+}
+
+/* Icon 2 */
+.icon-2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 553px;
+    right: 1000px;
+    top: 0%;
+    bottom: 0%;
+}
+
+.icon-text-2 {
+    position: absolute;
+    width: 109px;
+    height: 33px;
+    right: -633px;
+    top: 60px;
+    bottom: 41.67%;
+
+    color: rgb(184, 92, 56);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.text-row-2 {
+    /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
+    position: absolute;
+    width: 277px;
+    left: 433px;
+    bottom: 19px;
+
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 10%;
+    text-align: center;
+}
+
+/* Icon 3 */
+.icon-3 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 917px;
+    right: 1000px;
+    top: 0%;
+    bottom: 0%;
+}
+
+.icon-text-3 {
+    position: absolute;
+    width: 109px;
+    height: 33px;
+    right: -992px;
+    top: 60px;
+    bottom: 41.67%;
+
+    color: rgb(184, 92, 56);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.text-row-3 {
+    /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
+    position: absolute;
+    width: 277px;
+    left: 793px;
+    bottom: 19px;
+
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 10%;
+    text-align: center;
+}
+
+
+/* Row 2 */
+.row-2 {
+ /* Row 2 */
+    position: absolute;
+    width: 1110px;
+    height: 180px;
+    left: 143px;
+    right: 164px;
+    top: 1610px;
+    bottom: -768px;
+}
+
+/* Icon 4 */
+.icon-4 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 195px;
+    right: 1000px;
+    top: 0%;
+    bottom: 0%;
+}
+.icon-text-4 {
+    position: absolute;
+    width: 138px;
+    height: 33px;
+    right: 824px;
+    top: 60px;
+    bottom: 41.67%;
+
+    color: rgb(184, 92, 56);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.text-row-4 {
+    /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
+    position: absolute;
+    width: 277px;
+    left: 77px;
+    bottom: 19px;
+
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 10%;
+    text-align: center;
+}
+
+/* Icon 5 */
+.icon-5 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 553px;
+    top: 0%;
+    bottom: 0%;
+}
+ .icon-text-5 {
+    position: absolute;
+    width: 172px;
+    height: 33px;
+    right: 448px;
+    top: 60px;
+    bottom: 41.67%;
+    
+    color: rgb(184, 92, 56);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    
+    .text-row-5 {
+    /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
+    position: absolute;
+    width: 277px;
+    left: 434px;
+    bottom: 19px;
+    
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 10%;
+    text-align: center;
+    }
+
+/* Icon 6 */
+.icon-6 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 920px;
+    top: 0%;
+    bottom: 0%;
+}
+
+.icon-text-6 {
+    position: absolute;
+    width: 172px;
+    height: 33px;
+    right: 81px;
+    top: 60px;
+    bottom: 41.67%;
+    
+    color: rgb(184, 92, 56);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    
+    .text-row-6 {
+    /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
+    position: absolute;
+    width: 277px;
+    left: 793px;
+    bottom: 19px;
+    
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 10%;
+    text-align: center;
+    }
