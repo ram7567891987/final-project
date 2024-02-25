@@ -887,17 +887,132 @@ body {
 
 
 /* Stories Blog */
-.stories-blog {
+.storiesBlog {
     /* Rectangle 3 */
     position: absolute;
-    width: 1191px;
+    width: 1457px;
     height: 500px;
-    left: 165px;
+    left: -150px;
     right: 830px;
     top: 800px;
     bottom: -3102px;
 }
 
-.textBlog {
-    
+.user-1 {
+    /* Item 1 */
+    position: absolute;
+    width: 500px;
+    height: 355px;
+    left: 116px;
+    right: 595px;
+    top: 145px;
+    bottom: -4406px;
+}
+
+.ava-1, .ava-2, .ava-3 {
+    /* Ellipse 3 */
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 196px;
+    right: -35px;
+    top: 21px;
+}
+
+.text-user-1, .text-user-2, .text-user-3 {
+    /* I brought a rocket for my son in his 14th birthday. I liked their service. Love it. */
+    position: absolute;
+    width: 350px;
+    height: 99px;
+    left: 71px;
+    right: -165px;
+    top: 152px;
+    bottom: -4329px;
+
+    color: rgb(51, 51, 51);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.nameUser-1, .nameUser-2, .nameUser-3 {
+    /* Wade Warren */
+    position: absolute;
+    width: 350px;
+    height: 27px;
+    left: 65px;
+    right: -165px;
+    top: 292px;
+    bottom: -4617px;
+
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+
+.jobUser-1, .jobUser-2, .jobUser-3 {
+    /* Astronaut */
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 66px;
+    right: -165px;
+    top: 320px;
+    bottom: -4643px;
+
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+
+.user-1:hover {
+    border-radius: 50px;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+
+/* User 2 */
+.user-2 {
+    /* Item 1 */
+    position: absolute;
+    width: 500px;
+    height: 355px;
+    left: 580px;
+    right: 595px;
+    top: 145px;
+    bottom: -4406px;
+}
+
+
+.user-2:hover {
+    border-radius: 50px;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+/* User 3 */
+.user-3 {
+    /* Item 1 */
+    position: absolute;
+    width: 453px;
+    height: 355px;
+    left: 1026px;
+    right: 595px;
+    top: 145px;
+    bottom: -4406px;
+    margin-left: 30px;
+}
+
+.user-3:hover {
+
+    border-radius: 50px;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
 }
