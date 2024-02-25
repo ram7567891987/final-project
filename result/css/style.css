@@ -507,7 +507,7 @@ body {
     line-height: 33px;
     letter-spacing: 0%;
     text-align: center;
-    }
+}
     
     .text-row-5 {
     /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
@@ -522,7 +522,7 @@ body {
     line-height: 20px;
     letter-spacing: 10%;
     text-align: center;
-    }
+}
 
 /* Icon 6 */
 .icon-6 {
@@ -548,7 +548,7 @@ body {
     line-height: 33px;
     letter-spacing: 0%;
     text-align: center;
-    }
+}
     
     .text-row-6 {
     /* Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore */
@@ -563,4 +563,215 @@ body {
     line-height: 20px;
     letter-spacing: 10%;
     text-align: center;
-    }
+}
+
+    /* Time to Invest */
+
+.investIMG {
+    /* Rectangle 2 */
+    position: absolute;
+    width: 1360.87px;
+    height: 600px;
+    left: -3.8699999999999974px;
+    right: -641px;
+    top: 1943px;
+    bottom: -1943px;
+}
+
+.timeInvest-text {
+    /* Text */
+    position: absolute;
+    width: 445px;
+    height: 335px;
+    left: 830px;
+    right: 165px;
+    top: 2075px;
+    bottom: -1810px;
+}
+
+.slogan {
+    /* “Right time to invest into space” */
+    position: absolute;
+    width: 445px;
+    height: 130px;
+    left: -22px;
+    right: -898px;
+    top: -14px;
+    bottom: -1870px;    
+
+    color: rgb(92, 61, 46);
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.slogan-text {
+    position: absolute;
+    width: 445px;
+    height: 130px;
+    left: -22px;
+    right: -898px;
+    top: 130px;
+    bottom: -1870px;      
+
+    color: rgb(92, 61, 46);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Avatar investor */
+.ellipse-2 {
+    /* Ellipse 2 */
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: -21px;
+    right: -685px;
+    top: 250px;
+    bottom: -2346px;
+}
+
+.investor-cardname {
+/* Milon Ask CEO, Blackhole */
+    position: absolute;
+    width: 124px;
+    height: 64px;
+    left: 68px;
+    right: -685px;
+    top: 265px;
+    bottom: -2339px;
+
+    color: rgb(45, 36, 36);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+/* Cards Info */
+.cardsInfo {
+    /* bg */
+    position: absolute;
+    width: 1352px;
+    height: 950px;
+    left: 0;
+    right: 0;
+    top: 2543px;
+    bottom: -2543px;
+}
+
+/* titulTextInfo */
+.titulTextInfo {
+    /* Affordable, good quality. */
+    position: absolute;
+    width: 745px;
+    height: 87px;
+    left: 319px;
+    right: -166px;
+    top: 136px;
+
+    color: rgb(45, 36, 36);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.textLoremInfo {
+    /* Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl */
+    position: absolute;
+    width: 920px;
+    height: 66px;
+    left: 230px;
+    right: -260px;
+    top: 237px;
+
+    color: rgb(189, 189, 189);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+
+/* Item Cards */
+
+.itemCards {
+    /* Items */
+    position: absolute;
+    width: 1110px;
+    height: 441px;
+    left: 165px;
+    right: 164px;
+    top: 407px;
+    bottom: -2422px;
+}
+
+.card {
+    transition: transform 0.2s ease;
+    border-radius: none;
+    border: none;
+    margin-bottom: 1.5em;
+  }
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  }
+
+.textBrown {
+    color: #B85C38;
+}
+
+.cards-title {
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cards-text {
+    width: 310px;
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+
+/* Text Blog */
+.scienceBlog {
+    /* bg */
+    position: absolute;
+    width: 1358px;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 3493px;
+    bottom: -3493px;    
+    background: rgb(229, 229, 229);
+}
+
+.textBlog {
+    /* Text */
+    position: absolute;
+    width: 445px;
+    height: 253px;
+    left: 165px;
+    right: 830px;
+    top: 2000px;
+    bottom: -3102px;    
+}
