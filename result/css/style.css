@@ -9,7 +9,7 @@ body {
 
 .headerIMG {
     position: absolute;
-    width: 1365px;
+    width: 1374px;
     height: 924.55px;
     right: -15px;
     left: -8px;
@@ -584,7 +584,7 @@ body {
 .investIMG {
     /* Rectangle 2 */
     position: absolute;
-    width: 1360.87px;
+    width: 1368.87px;
     height: 600px;
     left: -3.8699999999999974px;
     right: -641px;
@@ -770,7 +770,7 @@ body {
 .scienceBlog {
     /* bg */
     position: absolute;
-    width: 1358px;
+    width: 1367px;
     height: 800px;
     left: 0;
     right: 0;
@@ -877,7 +877,6 @@ body {
 
 .cards-text {
     color: rgb(189, 189, 189);
-    font-family: Nunito;
     font-size: 20px;
     font-weight: 400;
     line-height: 27px;
@@ -894,7 +893,7 @@ body {
     height: 500px;
     left: -150px;
     right: 830px;
-    top: 800px;
+    top: 928px;
     bottom: -3102px;
 }
 
@@ -1015,4 +1014,339 @@ body {
 
     border-radius: 50px;
     box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+}
+
+/* Footer */
+.footerCircle {
+    position: absolute;
+    width: 1362px;
+    height: 200px;
+    top: 1734px;
+}
+
+.footerBdImage {
+    /* bg */
+    position: absolute;
+    width: 1374px;
+    height: 433px;
+    left: -4px;
+    right: 0;
+    top: -305px;
+    bottom: -4755px;   
+}
+
+.footerIMG {
+    width: 1368px;
+    height: 848px;
+    top: 700px;
+}
+
+.address {
+    /* Address */
+    position: absolute;
+    width: 350.24px;
+    height: 197px;
+    left: 128.11px;
+    right: 924.64px;
+    top: 330px;
+    bottom: -4524px;
+}
+
+.titleAddress {
+    /* Traunship */
+    position: absolute;
+    width: 164.11px;
+    height: 49px;
+    left: 1.1100000000000136px;
+    right: 21.01px;
+    top: -9px;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.addressCom {
+/* 4517 Washington Ave. Manchester, Kentucky 39495 */
+    position: absolute;
+    width: 350.24px;
+    height: 44px;
+    left: 1.1100000000000136px;
+    right: -165.11px;
+    top: 63px;
+    bottom: -5020px;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.number-1 {
+    /* (603) 555-0123 */
+    position: absolute;
+    width: 350.24px;
+    height: 22px;
+    left: 1.1100000000000136px;
+    right: -165.11px;
+    top: 128px;
+    bottom: -5100px;    
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.number-2 {
+    position: absolute;
+    width: 350.24px;
+    height: 22px;
+    left: 1.1100000000000136px;
+    right: -165.11px;
+    top: 175px;
+    bottom: -5100px;    
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/*  Quick Links */
+
+.quickLinks {
+    /* Address */
+    position: absolute;
+    width: 299.24px;
+    height: 197px;
+    left: 601.11px;
+    right: 924.64px;
+    top: 330px;
+}
+
+.titleLinks {
+    /* Quick Links */
+    position: absolute;
+    width: 128.09px;
+    height: 33px;
+    left: 3.3799999999999955px;
+    right: -534.38px;
+    top: 0px;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.linkFeatures {
+    /* Features */
+    position: relative;
+    width: 64px;
+    height: 32px;
+    left: 3.3799999999999955px;
+    top: 58px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.linkProducts {
+    position: relative;
+    width: 64px;
+    height: 32px;
+    left: -58.620000000000005px;
+    top: 123px;
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.linkTestimonial {
+    position: relative;
+    width: 64px;
+    height: 32px;
+    left: -128.62px;
+    top: 175px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.linkContact {
+    position: relative;
+    width: 64px;
+    height: 32px;
+    left: -217.62px;
+    top: 230px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Text Box */
+
+.textBox {
+    position: absolute;
+    width: 299.24px;
+    height: 197px;
+    left: 885.11px;
+    right: 924.64px;
+    top: 330px;
+}
+
+.textBoxTitle {
+    /* Newsletter */
+    position: absolute;
+    width: 299.24px;
+    height: 197px;
+    left: 12.110000000000014px;
+    right: 924.64px;
+    top: 0px;
+
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+
+.text-Box {
+/* bg */
+    position: absolute;
+    width: 445.31px;
+    height: 180px;
+    left: 12.580000000000041px;
+    right: -830.58px;
+    top: 85px;
+    bottom: -5094px;
+
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.18);
+}
+
+.text-box-1 {
+    position: static;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-right: 3%;
+    padding-right: 20%;
+    background: rgb(255, 255, 255);
+    top: 500px;
+}
+
+.text-title-box {
+    top: -100px;
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.button-go {
+    color: #F7F9FC;
+
+    width: 80px;
+    border-radius: 40px;
+    background: rgb(184, 92, 56);
+}
+
+.button-go:hover {
+    border: solid 2px;
+    border-radius: 40px;
+    border-color: #F7F9FC;
+}
+
+.line {
+    /* Seperator */
+    position: absolute;
+    width: 1110.77px;
+    height: 0;
+    left: 136.11px;
+    top: 716px;
+
+    /* White */
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.2;
+}
+
+.footerBottom {
+    /* Footer bottom */
+    position: absolute;
+    width: 1110.77px;
+    height: 16px;
+    left: 135.11px;
+    right: 164.11px;
+    top: 763px;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBottom p {
+    margin: 0;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    margin-left: 10px; /* Add spacing between icons */
 }
