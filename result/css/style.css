@@ -722,6 +722,7 @@ body {
 
 .itemCards {
     /* Items */
+    display: flex;
     position: absolute;
     width: 1110px;
     height: 441px;
@@ -774,7 +775,7 @@ body {
     height: 800px;
     left: 0;
     right: 0;
-    top: 3493px;
+    top: 3539px;
     bottom: -3493px;    
     background: #F7F9FC
 }
@@ -1349,4 +1350,64 @@ body {
 
 .icons img {
     margin-left: 10px; /* Add spacing between icons */
+}
+
+
+
+@media (min-width: 1200px) {
+}
+
+
+@media (min-width: 992px) {
+}
+
+
+@media screen and (max-width: 768px) {
+    .itemCards {
+        width: 100%; /* Чтобы карточки занимали всю доступную ширину */
+    }
+    
+    .scienceBlog {
+        position: absolute;
+        width: 1367px;
+        height: 800px;
+        left: 0;
+        right: 0;
+        top: 3886px;
+        bottom: -3493px;
+        background: #F7F9FC;
+        top: 3933px;
+    }
+}
+
+@media (min-width: 767px) {
+    .itemCards {
+        width: 100%;
+    }
+}
+    @media (max-width: 767px) {
+        .itemCards {
+            width: 100%;
+        }
+    }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .itemCards {
+        max-width: 100%;
+    }
+
+
+
+@media (max-width: 520px) {
+    .itemCards {
+        max-width: 25%;
+    }
+
+}
+}
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 320px) {
+    
 }
