@@ -9,7 +9,7 @@ body {
 
 .headerIMG {
     position: absolute;
-    width: 1374px;
+    width: 1410px;
     height: 924.55px;
     right: -15px;
     left: -8px;
@@ -584,7 +584,7 @@ body {
 .investIMG {
     /* Rectangle 2 */
     position: absolute;
-    width: 1368.87px;
+    width: 1400.87px;
     height: 600px;
     left: -3.8699999999999974px;
     right: -641px;
@@ -771,7 +771,7 @@ body {
 .scienceBlog {
     /* bg */
     position: absolute;
-    width: 1367px;
+    width: 1400px;
     height: 800px;
     left: 0;
     right: 0;
@@ -1028,16 +1028,16 @@ body {
 .footerBdImage {
     /* bg */
     position: absolute;
-    width: 1374px;
+    width: 1400px;
     height: 433px;
-    left: -4px;
+    left: -1px;
     right: 0;
     top: -305px;
     bottom: -4755px;   
 }
 
 .footerIMG {
-    width: 1368px;
+    width: 1400px;
     height: 848px;
     top: 700px;
 }
