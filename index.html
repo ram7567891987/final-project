@@ -7,306 +7,433 @@
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/_userIcon.scss" class="src">
 <!-- Шрифт Nunito-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <!-- header menu -->>
-<div class="headerHero">
-  <div class="header">
-        <img class="headerIMG" src="./img/headerIMG-1.png" alt="">
-        < class="headerMenu">
-            <div class="logo">
-                Traunship
-            </div>
+    <!-- header menu -->
+<header class="header">
+  <!-- Фоновое изображение -->
+  <img class="headerIMG" src="./img/headerIMG-1.png" alt="">
+        <div class="headerMenu">
             <div class="navLink">
-                <a href="#section1" class="textLink1">Features</a>
-                <a href="#section2" class="textLink2">Products</a>
-                <a href="#section3" class="textLink3">Testimonial</a>
-                <a href="#section4" class="textLink4">Contact</a>
-                <button type="button" class="button-demo btn btn-orange">Try a demo</button>
-            </div>
+              <div class="logo">Traunship</div>
+              <div class="textLinkHero">
+                <a href="">Features</a>
+                <a href="">Products</a>
+                <a href="">Testimonial</a>
+                <a href="">Contact</a>
 
-    <!-- Contents -->
-          <img type="button" class="iconBg" src="./icon/header icon/bg.svg" alt="">
-          <img class="iconPlay" src="./icon/header icon/play.svg" alt="">
-            <div class="infoContent">
-                Best place to buy rocket
-            </div>
+                
+      
+                <button class="demo-btn btn btn-orange">Registration</button>
+              </div>
+              <!-- Burger Menu -->
+              <div class="burger-menu-container">
+                <div class="burger-menu" onclick="toggleMenu()">
+                  &#9776;
+                </div>
+                <ul class="menu-list" id="menuList">
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Testimonial</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
 
-            <div class="infoContent-2">
-                Quis ipsum pellentesque nulla nulla elementum sagittis dictum
             </div>
         </div>
-        <div class="twoButton">
-            <button type="button" class=" button-demo1 btn">Try a demo</button>
-            <button type="button" class="button-demo2 btn btn-outline-light">Buy now</button>
-        </div>
+    </header>
+  <!-- Кнопка Play -->
+<div class="playContainer">
+  <div class="playButton">
+    <img class="playIcon" src="./icon/header icon/play.svg" alt="">
       </div>
-
-    <!-- Avoid block info -->
-            <div id="section1" class="avoid-text-1">
-                Features you can’s avoid
-            </div>
-            <div class="avoid-text-2">
-                Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl
-            </div>
-
-    <!-- Avoid icon -->
-
-<div class="row-1">
-    <!-- Icon-1 -->
-    <img class="icon-1" src="./icon/info icon/rocket-1.png"     alt="">
-    <div class="icon-text">Solid Fuel</div>
-    <div class="text-row-1">
-        Eget mattis viverra in lorem dictum 
-        cons equat etiam non pellentesque
-        maur is diamprice ore
+        <!-- Container text -->
+          <div class="textContainer">
+            <div class="fadeInAnimation">Best place to buy rocket</div>
+              </div>
+              <div class="textBtmContainer">
+            <div class="fadeInAnimation">Quis ipsum pellentesque nulla nulla elementum sagittis dictum</div>
+          </div>
+        <!-- Дуо кнопок -->
+          <div class="fadeInAnimation">
+        <div class="duoButtons">
+      <button class="button-1 btn btn-orange">Try a demo</button>
+    <button class="button-2 btn btn-orange">Buy now</button>
     </div>
-
-    <!-- Icon 2 -->
-    <img class="icon-2" src="./icon/info icon/satelite-1.png"   alt="">
-    <div class="icon-text-2">Liquid Fuel</div>
-    <div class="text-row-2">
-        Eget mattis viverra in lorem dictum 
-        consequat etiam non pellentesque
-        mauris diamprice ore
-    </div>
-
-    <!-- Icon-3 -->
-    <img class="icon-3" src="./icon/info icon/rocket-2.png"     alt="">
-    <div class="icon-text-3">Ion Rocket</div>
-    <div class="text-row-3">
-        Eget mattis viverra in lorem dictum 
-        consequat etiam non pellentesque
-        mauris diamprice ore
-    </div>
+  </div>
 </div>
 
-    <!-- Row 2 -->
-<div class="row-2">
-        <!-- Icon-4 -->
-    <img class="icon-4" src="./icon/info icon/ufo.png"          alt="">
-    <div class="icon-text-4">Plasma Rocket</div>
-    <div class="text-row-4">
-        Eget mattis viverra in lorem dictum 
-        consequat etiam non pellentesque
-        mauris diamprice ore
-    </div>
-        <!-- Icon-5 -->
-    <img class="icon-5" src="./icon/info icon/satelite-2.png"   alt="">
-    <div class="icon-text-5">Supersonic Rocket</div>
-    <div class="text-row-5">
-        Eget mattis viverra in lorem dictum 
-        consequat etiam non pellentesque
-        mauris diamprice ore
-    </div>
-        <!-- Icon-6 -->
-    <img class="icon-6" src="./icon/info icon/satelite-3.png"   alt="">
-    <div class="icon-text-6">Ultra Rocket</div>
-    <div class="text-row-6">
-        Eget mattis viverra in lorem dictum 
-        consequat etiam non pellentesque
-        mauris diamprice ore
-    </div>
-  </div>       
- </div>
+<!-- Cards section -->
+  <div class="titleTextSection">
+    <div class="fadeInAnimation">Features you can’s avoid</div>
+      </div>
+      <div class="btmTextSection">
+     Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl
+  </div>
 
- <!-- Time to invest -->
-<div class="timeInvest">
-    <img id="section2" class="investIMG" src="./img/Testimonial.png" alt="">
-    <div class="timeInvest-text">
-        <div class="slogan">“Right time to invest into space”</div>
-        <div class="slogan-text">
-            Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.
+
+<!-- Первая карточка -->
+<div class="cards-section">
+  <section class="main">
+    <div class="wrap wrap--1">
+      <div class="container container--1">
+        <div class="flex-container">
+          <img class="rocket-image" src="./icon/info_icon/rocket-1.png" alt="">
+            <p class="title">Solid Fuel</p>
+              <div class="textInfoCard">
+                Eget mattis viverra in lorem dictum 
+                consequat etiam non pellentesque
+                mauris diamprice ore
+              </div>
+            </div>
+          </div>
+         </div>
+    <!-- Вторая карточка -->
+        <div class="wrap wrap--2">
+          <div class="container container--2">
+            <div class="flex-container">
+              <img class="rocket-image" src="./icon/info_icon/satelite-1.png" alt="">
+                <p class="title">Liquid Fuel</p>
+                  <div class="textInfoCard">
+                  Eget mattis viverra in lorem dictum 
+                  consequat etiam non pellentesque
+                  mauris diamprice ore
+              </div>
+            </div>
+          </div>
         </div>
- <!-- Avatar investor -->
-    <img class="ellipse-2" src="./icon/avatar/Ellipse 2.png" alt="">       
-    <div class="investor-cardname">
-        Milon Ask
-        CEO, Blackhole
-    </div>
-    </div>
-</div>
-
-<!-- Cards info -->
-<div id="section3" class="cardsInfo">
-    <div class="titulTextInfo">
-        Affordable, good quality.
-    </div>
-    <div class="textLoremInfo">
-        Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl
-    </div>
-
-<!-- Items card -->
-    <div class="itemCards row row-cols-1 row-cols-md-2 g-5 m-2 ">
-        <div class="card mb-3" style="max-width: 600px;">
-            <div class="row g-2">
-              <div class="col-md-4">
-                <img src="./img/recomedation/rec-1.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="cards-title">Million pounds of thrust</h5>
-                  <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-                  <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
+    <!-- Третья карточка -->
+          <div class="wrap wrap--3">
+            <div class="container container--3">
+              <div class="flex-container">
+                <img class="rocket-image" src="./icon/info_icon/rocket-2.png" alt="">
+                  <p class="title">Plasma Rocket</p>
+                    <div class="textInfoCard">
+                    Eget mattis viverra in lorem dictum 
+                    consequat etiam non pellentesque
+                    mauris diamprice ore
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="card mb-3" style="max-width: 600px;">
-            <div class="row g-2">
-              <div class="col-md-4">
-                <img src="./img/recomedation/rec-3.png" class="img-fluid rounded-start" alt="...">
+    <!-- Четвёртая карточка -->
+          <div class="wrap wrap--4">
+            <div class="container container--4">
+              <div class="flex-container">
+                <img class="rocket-image" src="./icon/info_icon/ufo.png" alt="">
+                  <p class="title">Supersonic Rocket</p>
+                    <div class="textInfoCard">
+                      Eget mattis viverra in lorem dictum 
+                      consequat etiam non pellentesque
+                      mauris diamprice ore
+                    </div>
+                  </div>
+                </div>
+               </div>
+    <!-- Пятая карточка -->  
+              <div class="wrap wrap--5">
+                <div class="container container--5">
+                  <div class="flex-container">
+                    <img class="rocket-image" src="./icon/info_icon/satelite-2.png" alt="">
+                      <p class="title">Ultra Rocket</p>
+                        <div class="textInfoCard">
+                        Eget mattis viverra in lorem dictum 
+                        consequat etiam non pellentesque
+                        mauris diamprice ore
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="cards-title">More than 1,300 missions</h5>
-                  <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-                  <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
+      <!-- Шестая карточка -->  
+            <div class="wrap wrap--6">
+              <div class="container container--6">
+                <div class="flex-container">
+                  <img class="rocket-image" src="./icon/info_icon/satelite-3.png" alt="">
+                    <p class="title">Ion Rocket</p>
+                      <div class="textInfoCard">
+                      Eget mattis viverra in lorem dictum 
+                      consequat etiam non pellentesque
+                      mauris diamprice ore
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="card mb-3" style="max-width: 600px;">
-            <div class="row g-2">
-              <div class="col-md-4">
-                <img src="./img/recomedation/rec-2.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="cards-title">Atlas launched Friendship</h5>
-                  <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-                  <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card mb-3" style="max-width: 600px;">
-            <div class="row g-2">
-              <div class="col-md-4">
-                <img src="./img/recomedation/rec-4.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="cards-title">Separate spacecraft</h5>
-                  <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
-                  <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-</div>
-
-  <!-- Science Blog -->
-<div class="scienceBlog">
-    <div class="textBlog">
-        <div class="textBlog-1">
-          Don’t miss Rocket Science blog
-        </div>
-        <div class="textBlog-2">
-          Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.
-        </div>
-        <button type="button" class="button-stories btn btn-orange">All stories</button>
-  <!-- Cards Blog -->
+      </section>
     </div>
 
-    <div class="cardBlog d-flex">
-      <div class="row row-cols-2 row-cols-md-0 g-5">
-        <div class="col">
-          <div class="card">
-            <img src="./img/blog/blog-1.png" class="card-img-top" alt="...">
+<!-- invest container -->
+  <div class="investContainer">
+    <div class="hover-text-one">
+      <figure class="effect-text-three">
+        <img class="investIMG" src="./img/Testimonial.png" alt=""/>
+          <figcaption>
+              <div class="textInvest">
+            <h1 class="titleTextInvest">“Right time to invest into space”</h1>
+            <p class="btmTextInvest">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.
+              <img class="MelonAsk" src="./icon/avatar/Ellipse 2.png" alt=""><div class="avatarText">
+                Milon Ask
+                CEO, Blackhole
+              </div>
+            </div>              
+            </p>
+            </div>
+          </figcaption>			
+        </figure>
+      </div>
+  </div>
+
+  <!-- Info cards -->
+
+  <div class="titleInfoCards">
+    Affordable, good quality.
+      </div>
+      <div class="btnTextCards">
+    Lacus purus eu, mauris pretium mollis ac id mauris eget. Id diam enim faucibus pellentesque mi massa. Nmet nullam sed habitasse dignissim viverra congue nisl
+  </div>
+
+  <!-- Первая карточка -->
+  <div class="itemCards row row-cols-1 row-cols-md-1 m-3 g-4">
+    <div class="card mb-3" style="max-width: 600px;">
+        <div class="card-gap row g-2">
+          <div class="col-md-4">
+            <img class="cardIMG-b" src="./img/recomedation/rec-1.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
             <div class="card-body">
-              <h5 class="cards-title-1">“Rocket lab boots its space system”</h5>
-              <p class="cards-text pt-10 ">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
+              <h5 class="cards-title">Million pounds of thrust</h5>
+              <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
               <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
             </div>
           </div>
         </div>
+      </div>
+  <!-- Вторая карточка -->
+      <div class="card mb-3" style="max-width: 600px;">
+        <div class="card-gap row g-2">
+          <div class="col-md-4">
+            <img class="cardIMG-b" src="./img/recomedation/rec-3.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="cards-title">More than 1,300 missions</h5>
+              <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+              <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Третья карточка -->
+      <div class="card mb-3" style="max-width: 600px;">
+        <div class="card-gap row g-2">
+          <div class="col-md-4">
+            <img class="cardIMG-b" src="./img/recomedation/rec-2.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="cards-title">Atlas launched Friendship</h5>
+              <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+              <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Четвёртая карточка -->
+      <div class="card mb-3" style="max-width: 600px;">
+        <div class="card-gap row g-2">
+          <div class="col-md-4">
+            <img class="cardIMG-b" src="./img/recomedation/rec-4.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="cards-title">Separate spacecraft</h5>
+              <p class="cards-text">Eget mattis viverra in lorem dictum consequat etiam non pellentesque mauris diamprice ore</p>
+              <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+
+<!-- Science Blog -->
+<div class="scienceBlog d-flex">
+  <div class="itemBlog">
+    <div class="titleBlog">
+      <!-- Заглавный текст блога -->
+      <div class="fadeInAnimation">Don’t miss Rocket Science blog</div>
+        </div>
+          <!-- Основной текст блога -->
+          <div class="btmTextBlog">
+        <div class="fadeInAnimation">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu, mauris pretium mollis ac id mauris eget.</div>
+        </div>
+      <button class="stories-btn btn btn-orange">All Stories</button>  
+  </div>
+
+    <!-- Первая карточка -->
+    <div class="cardBlog d-flex form-card">
+      <div class="col">
+        <div class="card">
+          <img src="./img/blog/blog-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="cards-title-1">“Rocket lab boots its space system”</h5>
+            <p class="cards-text-1 pt-10">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
+            <p><a href="#" class="textBrown text-decoration-none">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    <!-- Вторая карточка -->  
         <div class="col">
           <div class="card">
             <img src="./img/blog/blog-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="cards-title-2">“NASA’s big rocket misses deadline”</h5>
-              <p class="cards-text">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
+              <p class="cards-text-2">Nmet nullam sed habitasse dignissim viverra congue nisl. Lacus purus eu.</p>
               <p><a href="#" class="textBrown text-decoration-none mt-5">Learn More</a></p>
             </div>
           </div>
         </div>
-    </div>
-</div>
-
-<!-- Stories blog -->
-<div class="storiesBlog">
-<!-- User 1-->
-  <div class="user-1">
-    <img src="./icon/avatar/Ellipse 3-2.png" class="ava-1" alt="">
-    <div class="text-user-1">
-      I brought a rocket for my son in his 14th birthday. I liked their service. Love it.
-    </div>
-      <div class="nameUser-1">
-        Wade Warren
       </div>
-     <div class="jobUser-1">
+    </div>
+
+    <!-- User Container -->
+  <!-- User-1 -->
+<div class="userContainer">
+ <div class="user-1">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img class="userIMG-1" src="./icon/avatar/Ellipse 3-2.png" alt="">
+        <div class="textUser">
+          I brought a rocket for my son in his 14th birthday. I liked their service. Love it.
+        </div>          
+      </div>
+      <!-- Обратная сторона карточки -->
+    <div class="flip-card-back">
+  <div class="mgCard">
+    <div class="nameUser">
+      Wade Warren
+      </div>
+    <div class="jobUser">
       Astronaut
-    </div>
-  </div>
-<!-- User 2 -->
-<div class="user-2">
-  <img src="./icon/avatar/Ellipse 3-1.png" class="ava-2" alt="">
-  <div class="text-user-1">
-    They delivered my custom rocket as fast as the rocket itself. Mindblowing.
-  </div>
-    <div class="nameUser-1">
-      Esther Howard
-    </div>
-   <div class="jobUser-1">
-    Appolo 11 Pilot
-  </div>
-</div>
-<!-- User 3 -->
-<div class="user-3">
-  <img src="./icon/avatar/Ellipse 3.png" class="ava-3" alt="">
-  <div class="text-user-3">
-    I found awesome customer service from them. They fixed my rocket within a day.
-  </div>
-    <div class="nameUser-3">
-      Cameron Williamson
-    </div>
-   <div class="jobUser-3">
-    NASA Manager
-  </div>
-</div>
-</div>
-
-<!-- Footer -->
-<div  id="section4" class="footerCircle">
-  <img class="footerBdImage" src="./img/Bg.png" alt="">
-  <img class="footerIMG" src="./img/footer.png" alt="">
-<footer>
-  <div class="address">
-    <div class="titleAddress">Traunship</div>
-      <div class="addressCom">
-        4517 Washington Ave. Manchester,
-        Kentucky 39495
+    </div> 
+    <!-- Изображение иконок соц.сетей-->
+      <div class="linksIcon">
+        <img class="iconIMG" src="./icon/link icon/facebook.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/instagram.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/telegram.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/twitter-x.svg" alt="">
+          </div>
         </div>
-      <div class="number-1">(684) 555-0102</div>
-    <div class="number-2">(603) 555-0123</div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+
+  <!-- User-2 -->
+ <div class="user-2">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img class="userIMG-2" src="./icon/avatar/Ellipse 3-1.png" alt="">
+        <div class="textUser">
+          They delivered my custom rocket as fast as the rocket itself. Mindblowing.  
+        </div>          
+      </div>
+        <!-- Обратная сторона карточки -->
+      <div class="flip-card-back">
+    <div class="mgCard">
+        <div class="nameUser">
+          Esther Howard
+          </div>
+        <div class="jobUser">
+          Appolo 11 Pilot
+    </div> 
+     <!-- Изображение иконок соц.сетей-->
+      <div class="linksIcon">
+        <img class="iconIMG" src="./icon/link icon/facebook.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/instagram.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/telegram.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/twitter-x.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+ </div>
+
+  <!-- User-3 -->
+ <div class="user-3">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img class="userIMG-3" src="./icon/avatar/Ellipse 3.png" alt="">
+        <div class="textUser">
+          I found awesome customer service from them. They fixed my rocket within a day.      
+        </div>          
+      </div>
+        <!-- Обратная сторона карточки -->
+      <div class="flip-card-back">
+    <div class="mgCard">
+        <div class="nameUser">
+          Cameron Williamson
+          </div>
+        <div class="jobUser">
+          NASA Manager
+    </div> 
+      <!-- Изображение иконок соц.сетей-->
+      <div class="linksIcon">
+        <img class="iconIMG" src="./icon/link icon/facebook.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/instagram.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/telegram.svg" alt="">
+        <img class="iconIMG" src="./icon/link icon/twitter-x.svg" alt="">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <img class="footerIMG_btm" src="./img/footer (1).png" alt="">
+<!-- Footer Ellipse -->
+  
+    <div class="footer-container-1">
+        <div class="footer-logo">
+        Traunship
+          </div>
+            <div class="address-footer">
+              4517 Washington Ave. Manchester,
+              Kentucky 39495              
+            </div>
+          <div class="numbers-footer">
+        <div class="number-1">(684) 555-0102</div>
+      <div class="number-2">(603) 555-0123</div>
+    </div>
   </div>
 
-  <div class="quickLinks">
-    <div class="titleLinks">Quick Links</div>
-        <a class="linkFeatures" href="#section1">Featues</a>
-        <a class="linkProducts" href="#section2">Products</a>
-        <a class="linkTestimonial" href="#section3">Testimonial</a>
-        <a class="linkContact" href="#section4">Contact</a>
+  <div class="footer-container-2">
+    <div class="quickLinks">
+      Quick Links
+    </div>
+
+    <div class="links">
+      <a class="link3" href="">Testimonial</a>
+      <a class="link2" href="">Products</a>
+      <a class="link1" href="">Features</a>
+      <a class="link4" href="">Contact</a>
+    </div>
   </div>
 
   <div class="textBox">
@@ -318,21 +445,24 @@
       </div>
   </div>
 
-  <div class="line"></div>
-
-  <div class="footerBottom">
-    <p>© 2021 Traunship. All right reserved.</p>
-    <div class="icons">
-        <a href=""><img src="./icon/link icon/uil_facebook-f.svg" alt=""> </a>
-        <a href=""><img src="./icon/link icon/uil_twitter-alt.svg" alt=""></a>
-        <a href=""><img src="./icon/link icon/uil_instagram.svg" alt="">  </a>
-        <a href=""><img src="./icon/link icon/uil_linkedin-alt.svg" alt=""></a>
+  <div class="linebox">
+    <div class="line"></div>
+    <div class="textLine">© 2021 Traunship. All right reserved.</div>
+    <div class="linkLineIcon">
+      <img class="iconLine1" src="./icon/link icon/uil_facebook-f.svg" alt="">
+      <img class="iconLine2" src="./icon/link icon/uil_twitter-alt.svg" alt="">
+      <img class="iconLine3" src="./icon/link icon/uil_instagram.svg" alt="">
+      <img class="iconLine4" src="./icon/link icon/uil_linkedin-alt.svg" alt="">
     </div>
-</div>
+  </div>
 
-</div>
 </footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+<script src="./js/app.js"></script>
+<script src="./js/burgermenu.js"></script>
+<script src="./js/investScroll.js"></script>
+
+
 </body>
 </html>
